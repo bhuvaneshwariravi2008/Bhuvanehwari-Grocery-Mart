@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cart - Bhuvaneshwari Mart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="navbar"></header>
+
+  <main class="container">
+    <h1 class="section-title">🛒 My Cart</h1>
+    <div id="cartArea"></div>
+  </main>
+
+  <!-- Order success popup -->
+  <div class="modal-bg" id="successModal">
+    <div class="modal">
+      <div class="tick">✓</div>
+      <h2>Order Successfully Placed!</h2>
+      <p id="successText">Thank you for shopping with us.</p>
+      <p><strong id="successOrderId"></strong></p>
+      <div class="btns">
+        <a href="orders.html" class="btn">View My Orders</a>
+        <a href="index.html" class="btn btn-outline">Continue Shopping</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer" id="footer"></footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel - Bhuvaneshwari Mart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="navbar"></header>
+
+  <main class="container">
+    <h1 class="section-title">🛡️ Admin Panel</h1>
+
+    <div class="stats" id="adminStats"></div>
+
+    <div class="tabs" id="adminTabs" style="max-width:520px">
+      <button class="tab active" data-tab="users">👥 Users</button>
+      <button class="tab" data-tab="products">🥬 Products</button>
+      <button class="tab" data-tab="orders">🧾 Orders</button>
+    </div>
+
+    <section class="panel">
+      <div class="table-wrap" id="adminContent"></div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer"></footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
